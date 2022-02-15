@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h3 class="text-center display-4">Hello and Welcome!</h3>
+    <p>This is the WebApp portion of the assessment.  Your assignment, should you choose to accept it, is the following:</p>
+    <ul>
+        <li>
+            It looks like there's no privacy statement in this WebApp.  Please add one so that when users browse to /Home/Privacy they see the following message:
+            <br />"We take your privacy very seriously."
+            <ul>
+                <li>
+                    This message will not change often.
+                </li>
+                <li>
+                    When this message changes we can wait for the next scheduled release before deploying the change.
+                </li>
+            </ul>
+        </li>
+        <li>
+            On this page, in the designated area beneath these instructions, we'd like to display the current date and time in ISO-8601 format:
+            <ul>
+                <li>
+                    "Current date and time" is valid as long as it is within 30 seconds of the time when the page has finished rendering in the browser.
+                </li>
+                <li>
+                    If the minute is odd, do not display the designated sentence below the date and time.
+                </li>
+                <li>
+                    If the minute is even, display the designated sentence below the date and time.
+                </li>
+                <li>
+                    Once the page has finished loading there is nothing more to do.  There is no need to update the page when the minute changes.
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <hr />
+    <div>
+        <h4>DateTime goes here!</h4>
+    </div>
+    <div>
+        This sentence should only be displayed when the minute is even.
+    </div>
+</div>
