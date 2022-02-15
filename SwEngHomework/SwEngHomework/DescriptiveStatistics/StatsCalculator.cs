@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SwEngHomework.DescriptiveStatistics
+﻿namespace SwEngHomework.DescriptiveStatistics
 {
     public class StatsCalculator : IStatsCalculator
     {

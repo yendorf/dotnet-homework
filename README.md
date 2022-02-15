@@ -2,7 +2,7 @@
 
 Please complete as much of the two exercises as possible in a **maximum of one hour**.  We will be evaluating your code on correctness, completeness, and maintainability.  
 
-The solution requires [Visual Studio 2017](https://www.visualstudio.com/downloads/) (Community Edition is free) with MS Test enabled.  Tests have been written which you must make pass.
+The solution requires [Visual Studio 2022](https://www.visualstudio.com/downloads/) (Community Edition is free) with MS Test enabled.  Tests have been written which currently fail.  You must make the tests pass without changing the test code.
 
 Download the code from this repository, either by cloning or downloading it as a zip file.  When finished, please create a new public repository on your on GitHub account, push your code to it, and notify the person at Lincoln you have been in touch with to review it.  We do this instead of using forks because candidates can see each other's forks, so **please do not fork this repo**.  If you prefer not to use GitHub to host your completed homework, please provide access to your code some other means and send us a URL.  We cannot accept submissions via email.
 

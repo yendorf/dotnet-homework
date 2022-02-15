@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace SwEngHomework.Commissions
+﻿namespace SwEngHomework.Commissions
 {
     public interface ICommissionCalculator
     {
