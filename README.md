@@ -78,4 +78,15 @@ Karen: 24.50
 ```
 
 ## 3. WebApp
-Please run the WebApp project and follow the directions on the Home page.
+* It looks like there's no privacy statement in this WebApp.  Please add one so that when users browse to /Home/Privacy they see the following message: `We take your privacy very seriously.`
+  * This message will not change often.
+  * When this message changes we can wait for the next scheduled release before deploying the change.
+                
+* On the Home page, in the designated DateTime area, we'd like to display the current date and time in ISO-8601 format as well as a conditional link to `/Other/EvenMinute`:
+  * "Current date and time" is valid as long as it is within 30 seconds of the time when the page has finished rendering in the browser.
+  * If the minute is odd, do not display the link.
+  * If the minute is even:
+    * Display a link to `Other/EvenMinute` below the date and time.
+    * The displayed text should be `Even Minute`
+    * Clicking this link should open a new browser tab.
+  * Once the page has finished loading there is nothing more to do.  There is no need to update the page when the minute changes.
