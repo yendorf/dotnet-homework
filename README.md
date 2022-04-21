@@ -6,7 +6,7 @@ The solution requires [Visual Studio 2022](https://www.visualstudio.com/download
 
 Exercises 1 and 2 have tests which currently fail.  You must make the tests pass without changing the test code.  Exercise 3 involves making small changes to a WebApp.  Directions for these exercises can be found below.
 
-Download the code from this repository, either by cloning or downloading it as a zip file.  When finished, please create a new public repository (e.g. on your own GitHub, GitLab, etc. account), push your code to it, and provide a message, including your repository URL, to your Lincoln contact stating that it is ready for review.  We do this instead of using forks because candidates can see each other's forks, so **please do not fork this repo**.  If you prefer not to use a public repository service like GitHub to host your completed homework, please provide access to your code by some other means and send us a URL.  We cannot accept submissions via email.
+Download the code from this repository, either by cloning or downloading it as a zip file.  When finished, please create a new public repository (e.g. on your own GitHub, GitLab, BitBucket, etc. account), push your code to it, and provide a message, including your repository URL, to your Lincoln contact stating that it is ready for review.  We do this instead of using forks because candidates can see each other's forks, so **please do not fork this repo**.  If you prefer not to use a public repository service like GitHub to host your completed homework, please provide access to your code by some other means and send us a URL.  We cannot accept submissions via email.
 
 **Thank you for very much for taking the time to complete this homework assignment.** 
 
