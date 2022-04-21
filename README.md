@@ -42,6 +42,7 @@ An advisor’s commission is a percentage of the account fee based on their seni
 Build a calculator which reads data from a JSON string and produces a commission report: each rep name and their commission rounded to two decimal places. 
 
 Important tips:
+
 * It is safe to assume that Advisor names are globally unique
 * We expect there to be **thousands** of advisors and accounts in the input data, so be mindful of potential performance issues.
 * An advisor who does not have any accounts should have a commission of 0.
