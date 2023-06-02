@@ -1,10 +1,10 @@
 # Lincoln Investment Software Engineering Homework
 
-Please complete as much of the three exercises as possible in a **maximum of one hour**.  We will be evaluating your code on correctness, completeness, and maintainability.  
+Please complete the three exercises.  There is no time limit but we estimate that these exercises can be completed within 1-2 hours.  We will be evaluating your code on correctness, completeness, and maintainability.  
 
 The solution requires [Visual Studio 2022](https://www.visualstudio.com/downloads/) (Community Edition is free) with MS Test enabled.
 
-Exercises 1 and 2 have tests which currently fail.  You must make the tests pass without changing the test code.  Exercise 3 involves making small changes to a WebApp.  Directions for these exercises can be found below.
+Exercises 1 and 2 have unit tests which currently fail.  You must make the tests pass without changing the test code or test data.  Exercise 3 involves making small changes to a WebApp.  Directions for these exercises can be found below.
 
 Download the code from this repository, either by cloning or downloading it as a zip file.  When finished, please create a new public repository (e.g. on your own GitHub, GitLab, BitBucket, etc. account), push your code to it, and provide a message, including your repository URL, to your Lincoln contact stating that it is ready for review.  We do this instead of using forks because candidates can see each other's forks, so **please do not fork this repo**.  If you prefer not to use a public repository service like GitHub to host your completed homework, please provide access to your code by some other means and send us a URL.  We cannot accept submissions via email.
 
@@ -46,7 +46,7 @@ Important tips:
 * It is safe to assume that Advisor names are globally unique
 * We expect there to be **thousands** of advisors and accounts in the input data, so be mindful of potential performance issues.
 * An advisor who does not have any accounts should have a commission of 0.
-* Other than the tests themselves, any code can be modified.
+* Other than the unit tests and test data, any code can be modified.
 
 ```
 Example input:
