@@ -1,4 +1,4 @@
-﻿@{
+﻿  @{
     ViewData["Title"] = "Home Page";
 }
 
@@ -8,10 +8,15 @@
     <hr /> 
     
     <div>
-        <h4> <i>DateTime goes here!</i> </h4>
+        @*<h4> <i>DateTime goes here!</i> </h4>*@
+        <h4><i>@DateTime.Now.ToString("yyyy-MM-ddThh:mm:ss")</i></h4>
     </div>
 
-    <i>Link goes here when the minute is event.</i>
+    @if(DateTime.Now.Minute % 2 == 0)
+    {
+        <i><a href="/Other/EvenMinute" target="_blank">Even Minute</a></i>
+    }
+    @*<i>Link goes here when the minute is even.</i>*@
 
     <hr />
     <div>
